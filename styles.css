@@ -1,0 +1,178 @@
+body {
+  background-color: #cbd5c0;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #708a32;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+.navbar p{
+  color: white;
+}
+.logo p{
+ text-align: center;
+}
+.navbar a {
+    float:left;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    padding-bottom: 3px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.navbar a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: yellow;
+    transition: width 0.3s;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+.navbar a:hover {
+    background-color: transparent;
+    color: yellow;
+}
+
+.name{
+  
+  background-color:#81917157;
+  height: 520px;
+  width: 100vw;
+}
+
+.name img{
+  float:left;
+  display: flex;
+  padding-right:0;
+  padding-top: 20px;
+  padding-left: 20px;
+  height: 490px;
+  width: auto;
+}
+.row-heading
+{
+  font-size:1.3rem;
+  font-weight:bold;
+}
+.total
+{
+  font-size:2rem;
+  font-weight:bold;
+}
+.total-val
+{
+  font-size:2rem;
+
+}
+.name p{
+  text-align: center;
+}
+.name h1{
+ padding-top: 240px;
+ text-align: center;
+}
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  #Products h1{
+    text-align: center;
+  }
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    transition: 0.3s;
+    background-color: #9caf88;
+    position: static;
+  }
+  
+  .card h2 {
+    color: #333;
+  }
+  
+  .card p {
+    color: black;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  #About{
+    background-image: url(images/about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:5px solid;
+    height: 600px;
+    color:rgb(255, 232, 232);
+    
+  }
+  #About p{
+    
+    text-align: center;
+  }
+  #About h1{
+    padding-top:220px;
+    text-align: center;
+    
+  }
+  #Contacts h1{
+    text-align: center;
+  }
+  #Contacts{
+    background-color: #5d704b;
+  }
+  .contacts{
+    box-sizing: border-box;
+    background-color: #849772;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+   .profile{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    transition: 0.3s;
+    background-color: #9caf88;
+   }
+  
+   .profile:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+.profile img{
+  height: 250px;
+  border-radius: 50%; 
+}
+  
